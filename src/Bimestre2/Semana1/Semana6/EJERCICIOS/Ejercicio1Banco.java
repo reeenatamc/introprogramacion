@@ -8,7 +8,7 @@ public class Ejercicio1Banco {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.print("Saldo inicial: ");
-        s_i = teclado.nextDouble(); //Se asigna el saldo ingresado por el usuario
+        s_i = teclado.nextDouble(); 
 
         int opcion = 0;
 
@@ -22,16 +22,16 @@ public class Ejercicio1Banco {
 
                 switch (opcion) {
                     case 1:
-                        consultaSaldo(); //Llama al método para mostrar el saldo actual
+                        consultaSaldo(); 
                         break;
                     case 2:
-                        retirarDinero(); //Llama al método para retirar dinero de la cuenta
+                        retirarDinero(); 
                         break;
                     case 3:
-                        depositarDinero(); //Llama al método para depositar dinero en la cuenta
+                        depositarDinero(); 
                         break;
                     case 4:
-                        System.out.println("Saliendo del programa...");
+                     
                         interruptor = false;
                         break;
                     default:
